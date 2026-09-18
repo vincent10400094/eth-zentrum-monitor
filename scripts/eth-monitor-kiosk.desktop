@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=ETH Monitor Kiosk
+Exec=/bin/bash -lc "$HOME/monitor/scripts/kiosk.sh"
+X-GNOME-Autostart-enabled=true
+NoDisplay=false

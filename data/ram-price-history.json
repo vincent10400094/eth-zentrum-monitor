@@ -1,0 +1,25 @@
+{
+  "product": "16 GB DDR5 UDIMM (desktop module, single stick)",
+  "currency": "CHF",
+  "note": "Retail price per module. Points marked observed:true are prices you actually saw in a shop. The rest are MODELLED: the series is anchored on the 01.10.2025 purchase price and scaled with the published DRAM price moves cited in each point. Replace them with real quotes whenever you check a shop — the page re-reads this file automatically.",
+  "sources": [
+    "TrendForce 29.10.2025 — 4Q25 conventional DRAM contract prices revised up to +18–23% QoQ",
+    "TrendForce 05.01.2026 — 1Q26 PC DRAM contract prices +105–110% QoQ, steepest single quarter on record",
+    "TrendForce 09.07.2026 — 3Q26 server DRAM contract prices +13–18% QoQ, increases capped by long-term agreements",
+    "Trade press, Jan 2026 — retail DDR5-6000 16 GB modules peaking near USD 240"
+  ],
+  "points": [
+    { "date": "2025-10-01", "price": 53.71, "observed": true,  "basis": "purchase price paid" },
+    { "date": "2025-11-01", "price": 62.00, "observed": false, "basis": "4Q25 contract prices revised up, spot market tightening" },
+    { "date": "2025-12-01", "price": 95.00, "observed": false, "basis": "HBM capacity shift, DRAM spot roughly doubles" },
+    { "date": "2026-01-01", "price": 192.00, "observed": false, "basis": "retail peak, ~USD 240 per 16 GB module reported" },
+    { "date": "2026-02-01", "price": 178.00, "observed": false, "basis": "retail retraces after panic buying" },
+    { "date": "2026-03-01", "price": 186.00, "observed": false, "basis": "1Q26 PC DRAM contract +105–110% feeds through" },
+    { "date": "2026-04-01", "price": 196.00, "observed": false, "basis": "2Q26 contract prices keep climbing" },
+    { "date": "2026-05-01", "price": 205.00, "observed": false, "basis": "2Q26 contract prices keep climbing" },
+    { "date": "2026-06-01", "price": 212.00, "observed": false, "basis": "2Q26 contract prices keep climbing" },
+    { "date": "2026-07-01", "price": 221.00, "observed": false, "basis": "3Q26 increases moderating to +13–18%" },
+    { "date": "2026-08-01", "price": 228.00, "observed": false, "basis": "3Q26 increases moderating" },
+    { "date": "2026-09-01", "price": 233.00, "observed": false, "basis": "3Q26 increases moderating" }
+  ]
+}

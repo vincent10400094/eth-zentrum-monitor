@@ -1,0 +1,45 @@
+{
+  "port": 8080,
+  "timezone": "Europe/Zurich",
+  "schedule": [
+    { "page": "mensa", "from": "11:00", "to": "12:30" },
+    { "page": "tram",  "from": "16:00", "to": "23:59" }
+  ],
+  "flexRotationSeconds": 180,
+  "flexPages": ["clock", "ram"],
+
+  "mensa": {
+    "facilities": [
+      { "id": 9, "label": "Polymensa",   "sub": "Mensa Polyterrasse" },
+      { "id": 3, "label": "Clausiusbar", "sub": "CLA Building" }
+    ],
+    "mealTime": "Lunch",
+    "priceGroup": "students",
+    "languageSwapSeconds": 12
+  },
+
+  "tram": {
+    "station": "Zürich, ETH/Universitätsspital",
+    "stationLabel": "ETH / Universitätsspital",
+    "limit": 12,
+    "walkMinutes": 2
+  },
+
+  "news": {
+    "feed": "https://partner-feeds.20min.ch/rss/20minuten",
+    "source": "20 Minuten",
+    "count": 14,
+    "rotationSeconds": 20
+  },
+
+  "ram": {
+    "product": "16 GB DDR5 UDIMM",
+    "purchaseDate": "2025-10-01",
+    "purchasePriceChf": 53.71,
+    "units": 5,
+    "resaleFeeRate": 0.08,
+    "historyFile": "data/ram-price-history.json"
+  },
+
+  "refresh": { "menuMinutes": 30, "tramSeconds": 20, "newsMinutes": 10 }
+}

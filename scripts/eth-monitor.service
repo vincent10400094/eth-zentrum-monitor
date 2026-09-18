@@ -1,0 +1,15 @@
+[Unit]
+Description=ETH monitor data server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/monitor
+ExecStart=/usr/bin/node %h/monitor/server/server.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=default.target

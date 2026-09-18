@@ -1,0 +1,11 @@
+{
+  "name": "eth-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-screen information display for an Odroid H4 (Ubuntu/GNOME): ETH mensa menus, tram departures and configurable dashboard pages.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": { "node": ">=18" }
+}
